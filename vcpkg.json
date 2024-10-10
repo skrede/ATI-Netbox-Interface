@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+  "name": "test",
+  "dependencies": [
+    {
+      "name": "imgui",
+      "features": [
+        "sdl2-binding",
+        "opengl3-binding"
+      ]
+    },
+    "sdl2",
+    "opengl",
+    "implot",
+    "eigen3"
+  ]
+}
